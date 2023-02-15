@@ -1,0 +1,79 @@
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin imgHover($h, $w) {
+  .img-section {
+    position: relative;
+    height: $h;
+    border-radius: 0.25rem;
+    background-color: $green;
+
+    .img {
+      display: block;
+      position: relative;
+      height: $h;
+      overflow: hidden;
+      mix-blend-mode: multiply;
+      transition: all 0.2s;
+      &:hover {
+        mix-blend-mode: normal;
+      }
+
+      img {
+        position: relative;
+        width: $w;
+        filter: grayscale(100%);
+        transition: all 0.6s;
+
+        &:hover {
+          filter: grayscale(0%);
+        }
+      }
+    }
+
+    &::after {
+      position: absolute;
+      content: "";
+      display: block;
+      height: $h;
+      width: $w;
+      border: 2px solid $green;
+      top: 20px;
+      left: 20px;
+      z-index: -1;
+      border-radius: 0.25rem;
+      transition: all 0.2s;
+    }
+
+    &:hover::after {
+      top: 15px;
+      left: 15px;
+    }
+  }
+}
+
+@mixin liMarker($p, $s, $t) {
+  ul {
+    list-style-type: none;
+  }
+  li {
+    padding-left: $p;
+    position: relative;
+  }
+  li::before {
+    position: absolute;
+    top: $t;
+    left: 0;
+    height: 100%;
+    padding-right: $p;
+    content: "▹";
+    color: $green;
+    font-size: $s;
+    line-height: 12px;
+  }
+}

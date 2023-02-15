@@ -1,0 +1,43 @@
+.nav {
+  height: 10rem;
+  padding: 0 2.5vw;
+  max-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .nav__items {
+    width: 75rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 300;
+
+    .link {
+      color: $lightest-slate;
+      font-family: $mono;
+      transition: color 0.1s;
+
+      span {
+        color: $green;
+      }
+
+      &:hover {
+        color: $green;
+      }
+    }
+  }
+}
+
+.logo {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  height: 7.5rem;
+
+  object {
+    position: relative;
+    z-index: -1;
+    height: 100%;
+  }
+}

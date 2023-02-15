@@ -1,0 +1,110 @@
+.work {
+  padding: 20rem 25vw;
+  max-width: 100vw;
+
+  h2 {
+    padding-bottom: 5rem;
+
+    &::after {
+      left: 41rem;
+    }
+  }
+  .reversed {
+    flex-direction: row-reverse;
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      p {
+        text-align: end;
+      }
+      ul {
+        justify-content: flex-end;
+
+        li {
+          padding-left: 3rem;
+        }
+      }
+
+      .logo {
+        padding-left: 1rem;
+      }
+    }
+  }
+
+  .direct {
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      ul {
+        justify-content: flex-start;
+
+        li {
+          padding-right: 3rem;
+        }
+      }
+    }
+    .logo {
+      padding-right: 1rem;
+    }
+  }
+
+  .project {
+    display: flex;
+    position: relative;
+
+    h6 {
+      color: $green;
+      padding-bottom: 1rem;
+    }
+
+    h4 {
+      padding-bottom: 2rem;
+    }
+
+    p {
+      background-color: $light-navy;
+      padding: 2.5rem;
+      box-shadow: 5px 5px 5px rgba(black, 0.2);
+      border-radius: 5px;
+      margin-bottom: 2rem;
+      z-index: 10;
+      width: 115%;
+    }
+
+    ul {
+      width: 100%;
+      display: flex;
+      list-style: none;
+      margin-bottom: 1rem;
+      li {
+        h6 {
+          color: $slate;
+        }
+      }
+    }
+
+    .logo {
+      height: 2.5rem;
+
+      svg {
+        height: 100%;
+        color: $lightest-slate;
+        width: 2.5rem;
+        transition: all 0.2s;
+
+        &:hover {
+          color: $green;
+        }
+      }
+    }
+
+    @include imgHover(33rem, 60rem);
+    .img-section::after {
+      display: none;
+    }
+  }
+}

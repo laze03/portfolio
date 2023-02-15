@@ -1,0 +1,19 @@
+.button {
+  font-family: $mono;
+  color: $green;
+  border: 1px solid $green;
+  border-radius: 5px;
+  transition: background-color 0.2s ease-in-out;
+
+  &:hover {
+    background-color: rgba($color: $green, $alpha: 0.25);
+  }
+
+  &-s {
+    padding: 1rem 1.5rem;
+  }
+
+  &-l {
+    padding: 2rem 3rem;
+  }
+}

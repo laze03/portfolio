@@ -1,0 +1,80 @@
+h1 {
+  font-size: 8rem;
+  color: $white;
+}
+
+h2 {
+  color: $lightest-slate;
+  font-size: 3rem;
+
+  .before {
+    content: "01. ";
+    font-family: $mono;
+    color: $green;
+    font-weight: 300;
+    font-size: 3rem;
+  }
+
+  &::after {
+    content: "";
+    display: block;
+    position: relative;
+    top: -20px;
+    width: 30rem;
+    height: 1px;
+    left: 22.5rem;
+    background-color: $lightest-navy;
+  }
+}
+
+h3 {
+  color: $lightest-slate;
+  font-size: 3rem;
+}
+
+h4 {
+  color: $lightest-slate;
+  font-size: 2rem;
+
+  span {
+    color: $green;
+  }
+}
+
+h5 {
+  font-family: $mono;
+  font-size: 2rem;
+  color: $green;
+  font-weight: 300;
+}
+
+h6 {
+  font-family: $mono;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+p {
+  font-size: 1.75rem;
+}
+
+a,
+a:focus,
+a:hover,
+a:visited,
+a:-webkit-any-link {
+  text-decoration: none;
+  color: $green;
+}
+
+button,
+input[type="submit"],
+input[type="reset"] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
