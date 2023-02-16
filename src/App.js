@@ -1,5 +1,6 @@
 import "./App.css";
 import Nav from "./components/Nav";
+import Social from "./components/Social";
 import Header from "./components/Header";
 import About from "./components/About";
 import Experience from "./components/Experience";
@@ -10,6 +11,7 @@ function App() {
   return (
     <>
       <Nav />
+      <Social />
       <Header />
       <About />
       <Experience />

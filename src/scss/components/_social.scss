@@ -1,0 +1,21 @@
+.social {
+  position: fixed;
+  bottom: 0;
+  left: 5rem;
+
+  ul {
+    list-style: none;
+
+    svg {
+      width: 2.5rem;
+      height: 5rem;
+      color: $slate;
+      transition: all 0.4s;
+
+      &:hover {
+        color: $green;
+        transform: translateY(-3px);
+      }
+    }
+  }
+}

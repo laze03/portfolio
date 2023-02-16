@@ -11,6 +11,7 @@
 html {
   font-size: 62.5%;
   max-width: 100vw;
+  overflow-x: hidden;
 }
 
 @media only screen and (max-width: 75em) {
@@ -109,6 +110,25 @@ input[type=reset] {
   outline: inherit;
 }
 
+.social {
+  position: fixed;
+  bottom: 0;
+  left: 5rem;
+}
+.social ul {
+  list-style: none;
+}
+.social ul svg {
+  width: 2.5rem;
+  height: 5rem;
+  color: #8892b0;
+  transition: all 0.4s;
+}
+.social ul svg:hover {
+  color: #64ffda;
+  transform: translateY(-3px);
+}
+
 .button {
   font-family: "Chivo Mono", monospace;
   color: #64ffda;
@@ -167,8 +187,11 @@ input[type=reset] {
 }
 
 header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 50vw;
-  margin: 30rem auto;
+  margin: 15vh auto;
   max-width: 100vw;
 }
 header .h1color {
@@ -180,10 +203,13 @@ header p {
   width: 55rem;
   margin-bottom: 7.5rem;
 }
+header a {
+  width: 30.5rem;
+}
 
 .about {
-  margin: 20rem auto;
-  width: 50vw;
+  margin: 20vw auto;
+  width: 60vw;
   max-width: 100vw;
 }
 .about .title {
