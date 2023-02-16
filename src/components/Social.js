@@ -1,11 +1,5 @@
 import "../css/main.css";
-import {
-  FiGithub,
-  FiExternalLink,
-  FiInstagram,
-  FiFacebook,
-  FiLinkedin,
-} from "react-icons/fi";
+import { FiGithub, FiInstagram, FiFacebook, FiLinkedin } from "react-icons/fi";
 
 export default function Social() {
   function Li(props) {

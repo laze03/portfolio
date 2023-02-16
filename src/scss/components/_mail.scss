@@ -1,0 +1,38 @@
+.mail {
+  position: fixed;
+  bottom: 20rem;
+  right: 0;
+  transform: rotate(90deg);
+
+  .rotated {
+    transition: all 0.4s;
+
+    &:hover {
+      color: $green;
+      transform: translateX(-3px);
+    }
+  }
+
+  a {
+    font-family: $mono;
+    color: $slate;
+    transition: all 0.4s;
+
+    &:hover {
+      color: $green;
+      transform: translateY(-3px);
+    }
+  }
+
+  &::after {
+    content: "";
+    display: block;
+    position: relative;
+    top: -5.75rem;
+    right: -35rem;
+    height: 10rem;
+    width: 2px;
+    background-color: $slate;
+    transform: rotate(90deg);
+  }
+}

@@ -110,25 +110,6 @@ input[type=reset] {
   outline: inherit;
 }
 
-.social {
-  position: fixed;
-  bottom: 0;
-  left: 5rem;
-}
-.social ul {
-  list-style: none;
-}
-.social ul svg {
-  width: 2.5rem;
-  height: 5rem;
-  color: #8892b0;
-  transition: all 0.4s;
-}
-.social ul svg:hover {
-  color: #64ffda;
-  transform: translateY(-3px);
-}
-
 .button {
   font-family: "Chivo Mono", monospace;
   color: #64ffda;
@@ -184,6 +165,69 @@ input[type=reset] {
   position: relative;
   z-index: -1;
   height: 100%;
+}
+
+.social {
+  position: fixed;
+  bottom: 0;
+  left: 5rem;
+}
+.social ul {
+  list-style: none;
+}
+.social ul svg {
+  width: 2.5rem;
+  height: 5rem;
+  color: #8892b0;
+  transition: all 0.4s;
+}
+.social ul svg:hover {
+  color: #64ffda;
+  transform: translateY(-3px);
+}
+.social ul::after {
+  content: "";
+  display: block;
+  position: relative;
+  top: 0;
+  height: 10rem;
+  left: 1.25rem;
+  width: 2px;
+  background-color: #8892b0;
+}
+
+.mail {
+  position: fixed;
+  bottom: 20rem;
+  right: 0;
+  transform: rotate(90deg);
+}
+.mail .rotated {
+  transition: all 0.4s;
+}
+.mail .rotated:hover {
+  color: #64ffda;
+  transform: translateX(-3px);
+}
+.mail a {
+  font-family: "Chivo Mono", monospace;
+  color: #8892b0;
+  transition: all 0.4s;
+}
+.mail a:hover {
+  color: #64ffda;
+  transform: translateY(-3px);
+}
+.mail::after {
+  content: "";
+  display: block;
+  position: relative;
+  top: -5.75rem;
+  right: -35rem;
+  height: 10rem;
+  width: 2px;
+  background-color: #8892b0;
+  transform: rotate(90deg);
 }
 
 header {
