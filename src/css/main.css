@@ -71,6 +71,9 @@ h3 {
   h2 {
     font-size: 2rem;
   }
+  h2::after {
+    display: none;
+  }
 }
 h4 {
   color: #ccd6f6;
@@ -398,8 +401,8 @@ header a {
   }
   .about .content .img-section {
     position: relative;
-    height: 15rem;
-    width: 15rem;
+    height: 20rem;
+    width: 20rem;
     border-radius: 0.25rem;
     background-color: #64ffda;
   }
@@ -427,8 +430,8 @@ header a {
     position: absolute;
     content: "";
     display: block;
-    height: 15rem;
-    width: 15rem;
+    height: 20rem;
+    width: 20rem;
     border: 2px solid #64ffda;
     top: 20px;
     left: 20px;
