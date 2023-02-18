@@ -304,6 +304,7 @@ header a {
   }
   header p {
     width: auto;
+    padding-right: 2rem;
   }
 }
 .about {
@@ -417,8 +418,8 @@ header a {
   }
   .about .content .img-section {
     position: relative;
-    height: 20rem;
-    width: 20rem;
+    height: 25rem;
+    width: 25rem;
     border-radius: 0.25rem;
     background-color: #64ffda;
   }
@@ -446,8 +447,8 @@ header a {
     position: absolute;
     content: "";
     display: block;
-    height: 20rem;
-    width: 20rem;
+    height: 25rem;
+    width: 25rem;
     border: 2px solid #64ffda;
     top: 20px;
     left: 20px;
@@ -544,6 +545,15 @@ header a {
 @media screen and (max-width: 800px) {
   .experience {
     width: 80vw;
+  }
+  .experience .experiences {
+    margin-left: -3rem;
+  }
+  .experience .experiences .name button {
+    width: 12rem;
+  }
+  .experience .experiences .name button::before {
+    margin-right: 1.5rem;
   }
 }
 .work {

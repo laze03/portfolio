@@ -79,5 +79,18 @@
 @media screen and (max-width: 800px) {
   .experience {
     width: 80vw;
+
+    .experiences {
+      margin-left: -3rem;
+
+      .name {
+        button {
+          width: 12rem;
+          &::before {
+            margin-right: 1.5rem;
+          }
+        }
+      }
+    }
   }
 }
