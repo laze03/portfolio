@@ -36,3 +36,9 @@
     transform: rotate(90deg);
   }
 }
+
+@media screen and (max-width: 800px) {
+  .mail {
+    display: none;
+  }
+}

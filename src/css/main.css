@@ -14,11 +14,6 @@ html {
   overflow-x: hidden;
 }
 
-@media only screen and (max-width: 75em) {
-  html {
-    font-size: 50%;
-  }
-}
 body {
   padding: 0;
   max-width: 100vw;
@@ -33,7 +28,7 @@ body {
 }
 
 h1 {
-  font-size: 8rem;
+  font-size: 7rem;
   color: #e6f1ff;
 }
 
@@ -64,9 +59,14 @@ h3 {
   font-size: 3rem;
 }
 
+@media only screen and (max-width: 800px) {
+  h1 {
+    font-size: 6rem;
+  }
+}
 h4 {
   color: #ccd6f6;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 h4 span {
   color: #64ffda;
@@ -196,6 +196,11 @@ input[type=reset] {
   background-color: #8892b0;
 }
 
+@media screen and (max-width: 800px) {
+  .social {
+    display: none;
+  }
+}
 .mail {
   position: fixed;
   bottom: 20rem;
@@ -230,6 +235,11 @@ input[type=reset] {
   transform: rotate(90deg);
 }
 
+@media screen and (max-width: 800px) {
+  .mail {
+    display: none;
+  }
+}
 header {
   display: flex;
   flex-direction: column;
@@ -555,20 +565,51 @@ header a {
 .work .project .img-section::after {
   display: none;
 }
-@media screen and (max-width: 160rem) {
+@media screen and (max-width: 1600px) {
   .work .project .img-section {
     height: 25rem;
   }
 }
 
-@media screen and (max-width: 140rem) {
+@media screen and (max-width: 1400px) {
   .work {
     width: 60vw;
   }
 }
-@media screen and (max-width: 100rem) {
+@media screen and (max-width: 1000px) {
+  .work {
+    width: 75vw;
+  }
+}
+@media screen and (max-width: 800px) {
   .work {
     width: 80vw;
+  }
+  .work .project .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-image: linear-gradient(to right bottom, rgba(10, 25, 47, 0.8), rgba(10, 25, 47, 0.8)), url(../media/nexter.png);
+    background-size: cover;
+    filter: grayscale(80%);
+  }
+  .work .project .content p {
+    background-color: transparent;
+    box-shadow: none;
+    width: 100%;
+    text-align: start;
+    padding: 0;
+  }
+  .work .project .content ul {
+    justify-content: flex-start;
+  }
+  .work .project .content ul li {
+    padding-right: 3rem;
+    padding-left: 0;
+  }
+  .work .project .img-section {
+    display: none;
   }
 }
 .contact {

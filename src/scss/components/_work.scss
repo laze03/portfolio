@@ -108,7 +108,7 @@
       display: none;
     }
 
-    @media screen and (max-width: 160rem) {
+    @media screen and (max-width: 1600px) {
       .img-section {
         height: 25rem;
       }
@@ -116,14 +116,57 @@
   }
 }
 
-@media screen and (max-width: 140rem) {
+@media screen and (max-width: 1400px) {
   .work {
     width: 60vw;
   }
 }
 
-@media screen and (max-width: 100rem) {
+@media screen and (max-width: 1000px) {
+  .work {
+    width: 75vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
   .work {
     width: 80vw;
+
+    .project {
+      .content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-image: linear-gradient(
+            to right bottom,
+            rgba($navy, 0.8),
+            rgba($navy, 0.8)
+          ),
+          url(../media/nexter.png);
+        background-size: cover;
+        filter: grayscale(80%);
+
+        p {
+          background-color: transparent;
+          box-shadow: none;
+          width: 100%;
+          text-align: start;
+          padding: 0;
+        }
+
+        ul {
+          justify-content: flex-start;
+
+          li {
+            padding-right: 3rem;
+            padding-left: 0;
+          }
+        }
+      }
+      .img-section {
+        display: none;
+      }
+    }
   }
 }
