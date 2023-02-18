@@ -25,5 +25,15 @@ header {
 @media screen and (max-width: 800px) {
   header {
     margin: 0 0 0 10vw;
+
+    .h1color {
+      color: $slate !important;
+      margin-top: 0;
+      margin-bottom: 3rem;
+    }
+
+    p {
+      width: auto;
+    }
   }
 }

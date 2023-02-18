@@ -176,6 +176,9 @@ input[type=reset] {
 }
 
 @media screen and (max-width: 800px) {
+  .nav {
+    justify-content: center;
+  }
   .nav .nav__items {
     display: none;
   }
@@ -277,6 +280,14 @@ header a {
 @media screen and (max-width: 800px) {
   header {
     margin: 0 0 0 10vw;
+  }
+  header .h1color {
+    color: #8892b0 !important;
+    margin-top: 0;
+    margin-bottom: 3rem;
+  }
+  header p {
+    width: auto;
   }
 }
 .about {
