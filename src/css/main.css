@@ -388,10 +388,57 @@ header a {
   }
 }
 @media screen and (max-width: 800px) {
-  .content {
+  .about {
+    width: 90vw;
+  }
+  .about .content {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .about .content .img-section {
+    position: relative;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 0.25rem;
+    background-color: #64ffda;
+  }
+  .about .content .img-section .img {
+    display: block;
+    position: relative;
+    height: inherit;
+    overflow: hidden;
+    mix-blend-mode: multiply;
+    transition: all 0.3s;
+  }
+  .about .content .img-section .img:hover {
+    mix-blend-mode: normal;
+  }
+  .about .content .img-section .img img {
+    position: relative;
+    filter: grayscale(100%);
+    transition: all 0.6s;
+    height: inherit;
+  }
+  .about .content .img-section .img img:hover {
+    filter: grayscale(0%);
+  }
+  .about .content .img-section::after {
+    position: absolute;
+    content: "";
+    display: block;
+    height: 15rem;
+    width: 15rem;
+    border: 2px solid #64ffda;
+    top: 20px;
+    left: 20px;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: all 0.2s;
+  }
+  .about .content .img-section:hover::after {
+    top: 15px;
+    left: 15px;
   }
 }
 .experience {
