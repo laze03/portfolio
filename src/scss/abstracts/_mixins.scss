@@ -16,19 +16,19 @@
     .img {
       display: block;
       position: relative;
-      height: $h;
+      height: inherit;
       overflow: hidden;
       mix-blend-mode: multiply;
-      transition: all 0.2s;
+      transition: all 0.3s;
       &:hover {
         mix-blend-mode: normal;
       }
 
       img {
         position: relative;
-        width: $w;
         filter: grayscale(100%);
         transition: all 0.6s;
+        height: inherit;
 
         &:hover {
           filter: grayscale(0%);

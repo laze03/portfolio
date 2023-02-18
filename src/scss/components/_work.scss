@@ -107,5 +107,23 @@
     .img-section::after {
       display: none;
     }
+
+    @media screen and (max-width: 160rem) {
+      .img-section {
+        height: 25rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 140rem) {
+  .work {
+    width: 60vw;
+  }
+}
+
+@media screen and (max-width: 100rem) {
+  .work {
+    width: 80vw;
   }
 }
