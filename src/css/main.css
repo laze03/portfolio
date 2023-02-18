@@ -27,6 +27,11 @@ body {
   color: #8892b0;
 }
 
+@media screen and (max-width: 800px) {
+  h2 span.before {
+    font-size: 2rem;
+  }
+}
 h1 {
   font-size: 7rem;
   color: #e6f1ff;
@@ -170,6 +175,11 @@ input[type=reset] {
   height: 100%;
 }
 
+@media screen and (max-width: 800px) {
+  .nav .nav__items {
+    display: none;
+  }
+}
 .social {
   position: fixed;
   bottom: 0;
@@ -264,6 +274,11 @@ header a {
   width: 30.5rem;
 }
 
+@media screen and (max-width: 800px) {
+  header {
+    margin: 0 0 0 10vw;
+  }
+}
 .about {
   margin: 0 auto 20vw;
   width: 55vw;
@@ -314,6 +329,7 @@ header a {
 .about .content .img-section {
   position: relative;
   height: 30rem;
+  width: 30rem;
   border-radius: 0.25rem;
   background-color: #64ffda;
 }
@@ -355,6 +371,18 @@ header a {
   left: 15px;
 }
 
+@media screen and (max-width: 1400px) {
+  .about {
+    width: 70vw;
+  }
+}
+@media screen and (max-width: 800px) {
+  .content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .experience {
   width: 40vw;
   margin: 20rem auto;
@@ -436,6 +464,11 @@ header a {
   padding-bottom: 1rem;
 }
 
+@media screen and (max-width: 800px) {
+  .experience {
+    width: 80vw;
+  }
+}
 .work {
   width: 50vw;
   margin: 20rem auto;
@@ -525,6 +558,7 @@ header a {
 .work .project .img-section {
   position: relative;
   height: 33rem;
+  width: 60rem;
   border-radius: 0.25rem;
   background-color: #64ffda;
 }

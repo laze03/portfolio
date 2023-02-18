@@ -24,3 +24,9 @@ body {
   background-color: $navy;
   color: $slate;
 }
+
+@media screen and (max-width: 800px) {
+  h2 span.before {
+    font-size: 2rem;
+  }
+}
