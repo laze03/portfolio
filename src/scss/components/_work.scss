@@ -132,20 +132,26 @@
   .work {
     width: 80vw;
 
+    h2 {
+      &::after {
+        top: -15px;
+        left: 30rem;
+        width: 20rem;
+      }
+    }
+
     .project {
+      background-image: url(../media/nexter.png);
+      background-size: cover;
+      box-shadow: 5px 5px 5px rgba(black, 0.2);
+
       .content {
+        background-color: rgba($light-navy, 0.9);
         width: 100%;
+        padding: 4rem 2rem;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        background-image: linear-gradient(
-            to right bottom,
-            rgba($navy, 0.8),
-            rgba($navy, 0.8)
-          ),
-          url(../media/nexter.png);
-        background-size: cover;
-        filter: grayscale(80%);
 
         p {
           background-color: transparent;

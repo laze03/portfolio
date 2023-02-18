@@ -61,7 +61,10 @@ h3 {
 
 @media only screen and (max-width: 800px) {
   h1 {
-    font-size: 6rem;
+    font-size: 5rem;
+  }
+  h2 {
+    font-size: 2rem;
   }
 }
 h4 {
@@ -585,14 +588,23 @@ header a {
   .work {
     width: 80vw;
   }
+  .work h2::after {
+    top: -15px;
+    left: 30rem;
+    width: 20rem;
+  }
+  .work .project {
+    background-image: url(../media/nexter.png);
+    background-size: cover;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  }
   .work .project .content {
+    background-color: rgba(17, 34, 64, 0.9);
     width: 100%;
+    padding: 4rem 2rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    background-image: linear-gradient(to right bottom, rgba(10, 25, 47, 0.8), rgba(10, 25, 47, 0.8)), url(../media/nexter.png);
-    background-size: cover;
-    filter: grayscale(80%);
   }
   .work .project .content p {
     background-color: transparent;
