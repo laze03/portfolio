@@ -43,12 +43,16 @@
 
 @media screen and (max-width: 800px) {
   .about {
-    width: 90vw;
+    width: 80vw;
 
     .content {
       flex-direction: column;
       justify-content: center;
       align-items: center;
+
+      .text-section {
+        padding-bottom: 2rem;
+      }
 
       @include imgHover(20rem, 20rem);
     }

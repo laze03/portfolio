@@ -16,3 +16,12 @@
     padding: 3rem 0 4rem;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .contact {
+    p {
+      width: auto;
+      padding: 2rem 2rem;
+    }
+  }
+}

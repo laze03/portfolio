@@ -392,12 +392,15 @@ header a {
 }
 @media screen and (max-width: 800px) {
   .about {
-    width: 90vw;
+    width: 80vw;
   }
   .about .content {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .about .content .text-section {
+    padding-bottom: 2rem;
   }
   .about .content .img-section {
     position: relative;
@@ -735,6 +738,13 @@ header a {
 .contact p {
   width: 50rem;
   padding: 3rem 0 4rem;
+}
+
+@media screen and (max-width: 800px) {
+  .contact p {
+    width: auto;
+    padding: 2rem 2rem;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
