@@ -463,7 +463,7 @@ header a {
   }
 }
 .experience {
-  width: 40vw;
+  width: 45vw;
   margin: 20rem auto;
   max-width: 100vw;
 }
@@ -543,6 +543,11 @@ header a {
   padding-bottom: 1rem;
 }
 
+@media screen and (max-width: 1500px) {
+  .experience {
+    width: 60vw;
+  }
+}
 @media screen and (max-width: 800px) {
   .experience {
     width: 80vw;
