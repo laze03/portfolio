@@ -21,7 +21,11 @@ export default function Nav() {
         {link(2, "Experience")}
         {link(3, "Work")}
         {link(4, "Contact")}
-        <Button className="button-s" href="/resume.pdf" text="Resume" />
+        <Button
+          className="button-s"
+          href="my-portfolio/public/resume.pdf"
+          text="Resume"
+        />
       </div>
     </nav>
   );
