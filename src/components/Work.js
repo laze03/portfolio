@@ -20,8 +20,7 @@ export default function Work() {
     return (
       <p>
         An interactive classic game made with the help of
-        <a> React useContext Hook </a>
-        ensures passing variables from one child component to another.
+        <a> React useContext Hook </a> and <a> reusable components</a>.
       </p>
     );
   }
