@@ -1,6 +1,6 @@
 import "../css/main.css";
 import H2 from "./H2";
-import me from "../media/me.png";
+import me from "../media/me smiling.png";
 
 function Ul(i1, i2, i3) {
   return (
