@@ -19,27 +19,27 @@ export default function About() {
       <div className="content">
         <div className="text-section">
           <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis
-            purus ut ipsum aliquet, ac auctor turpis imperdiet. Pellentesque
-            mattis, lectus in maximus fermentum, felis nibh ornare augue, eget
-            vestibulum leo metus at neque. Fusce id turpis fermentum, vestibulum
-            ipsum nec, eleifend erat. Donec a lacus eros.
-            <br></br>
-            <br></br>
-            Proin eu nisl elit. Ut convallis semper diam. Sed non porta metus.
-            Vestibulum scelerisque in massa nec egestas. Pellentesque non
-            euismod magna, a fringilla sem. Morbi vehicula augue ac dui dapibus
-            congue. Aenean ipsum lorem, molestie in urna vel, viverra sagittis
-            ex. Nulla sagittis est nec lorem fringilla vestibulum. Duis vitae
-            leo ante. Nunc convallis tristique augue a convallis.
-            <br></br>
-            <br></br>
-            Ut nunc mauris, dignissim elementum ex sit amet, sodales rhoncus
-            arcu. In hac habitasse platea dictumst. Maecenas eget vulputate
-            nunc, eget commodo lacus. Suspendisse ultrices ligula enim, vitae
-            luctus neque maximus id. Vivamus venenatis quam et felis tempor
-            imperdiet. Aliquam et erat aliquam, efficitur ligula eget, gravida
-            mi."
+            My name is Lazrak Ahmed and I am a freshman software engineer
+            student who is passionate about all things related to software
+            engineering.
+            <br />
+            <br />
+            As a freshman software engineering student, I am just getting
+            started on my journey, but I am excited about the opportunities and
+            challenges that lie ahead. I have already gained a solid foundation
+            in programming languages, data structures, algorithms, and software
+            development methodologies, I also got my certificate for the
+            Front-End developer made by Meta.
+            <br />
+            <br />
+            Outside of software engineering, I am an avid reader and enjoy
+            learning about different cultures and histories. I also enjoy
+            playing basketball and spending time outdoors. But software
+            engineering is my true passion, and I am excited to continue
+            developing my skills and knowledge in this field.
+            <br />
+            <br />
+            Here are a few technologies I’ve been working with recently:
           </p>
           <div className="ul">
             {Ul("HTML", "CSS", "SASS")}
