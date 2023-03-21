@@ -72,7 +72,7 @@ export default function Work() {
       <H2 before="03. " text="Some Things I've Built" />
       <Project
         className="reversed RPS"
-        title="ROck-Paper-Scissors Game"
+        title="Rock-Paper-Scissors Game"
         function={rPS()}
         list={[
           "JavaScript",
