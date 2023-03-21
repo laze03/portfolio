@@ -66,7 +66,7 @@ export default function Experience() {
             place="Al Khansaa Highschool"
             date="September 2020 - July 2022"
             list={[
-              "Intense courses on Algebra, Trigonometry and ...",
+              "Intense courses on Linear Algebra, Trigonometry, Statistics and Analysis",
               "Acquiring general knowledge about Physics, Chemestry, and IT ",
             ]}
           />
