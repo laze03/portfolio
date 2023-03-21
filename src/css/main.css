@@ -593,10 +593,16 @@ header a {
 .work .reversed .content .logo {
   padding-left: 1rem;
 }
+.work .direct {
+  flex-direction: row;
+}
 .work .direct .content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+.work .direct .content p {
+  text-align: start;
 }
 .work .direct .content ul {
   justify-content: flex-start;
@@ -604,7 +610,7 @@ header a {
 .work .direct .content ul li {
   padding-right: 3rem;
 }
-.work .direct .logo {
+.work .direct .content .logo {
   padding-right: 1rem;
 }
 .work .project {
@@ -628,10 +634,11 @@ header a {
   width: 115%;
 }
 .work .project ul {
-  width: 100%;
+  width: 115%;
   display: flex;
   list-style: none;
   margin-bottom: 1rem;
+  z-index: 10;
 }
 .work .project ul li h6 {
   color: #8892b0;
@@ -695,6 +702,11 @@ header a {
 .work .project .img-section::after {
   display: none;
 }
+@media screen and (max-width: 1800px) {
+  .work .project .img-section {
+    height: 27.5rem;
+  }
+}
 @media screen and (max-width: 1600px) {
   .work .project .img-section {
     height: 25rem;
@@ -720,8 +732,16 @@ header a {
     left: 30rem;
     width: 20rem;
   }
-  .work .project {
+  .work .nexter {
     background-image: url(../media/nexter.png);
+  }
+  .work .RPS {
+    background-image: url(../media/RPS.png);
+  }
+  .work .Hoobank {
+    background-image: url(../media/Hoobank.png);
+  }
+  .work .project {
     background-size: cover;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
   }

@@ -57,28 +57,25 @@ export default function Experience() {
             date="September 2022 - Present"
             list={[
               "learning data structures & algorithms",
-              "Preparing Certification in Front-End and Back-End Development",
+              "Preparing Certification in Front-End ( acquaried ) and Back-End Development",
             ]}
           />
           <Detail
-            class="2- College"
+            class="2- CPGE"
             id="2"
-            place="ENSIAS"
-            date="September 2022 - Present"
+            place="Al Khansaa Highschool"
+            date="September 2020 - July 2022"
             list={[
-              "learning data structures & algorithms",
-              "Preparing Certification in Front-End and Back-End Development",
+              "Intense courses on Algebra, Trigonometry and ...",
+              "Acquaring general knowledge about Physics, Chemestry, and IT ",
             ]}
           />
           <Detail
-            class="3- College"
+            class="Bacallauriate in Math science"
             id="3"
-            place="ENSIAS"
-            date="September 2022 - Present"
-            list={[
-              "learning data structures & algorithms",
-              "Preparing Certification in Front-End and Back-End Development",
-            ]}
+            place="Les Palmiers Institute"
+            date="September 2019 - July 2020"
+            list={["Learning Mathematics and Physics"]}
           />
         </div>
       </div>

@@ -1,6 +1,8 @@
 import "../css/main.css";
 import H2 from "./H2";
-import img from "../media/nexter.png";
+import Nexter from "../media/nexter.png";
+import RPS from "../media/RPS.png";
+import Hoobank from "../media/Hoobank.png";
 import { FiGithub, FiExternalLink } from "react-icons/fi";
 
 export default function Work() {
@@ -48,12 +50,38 @@ export default function Work() {
     <div className="work" id="Work">
       <H2 before="03. " text="Some Things I've Built" />
       <Project
-        className="reversed"
+        className="reversed nexter"
         title="Nexter Project"
         list={["HTML 5", "CSS 3", "SCSS", "css grid", "flexbox"]}
         github="https://github.com/laze03/Nexter"
         link="https://laze03.github.io/Nexter/"
-        img={img}
+        img={Nexter}
+      />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <Project
+        className="direct RPS"
+        title="ROck-Paper-Scissors Game"
+        list={["JavaScript", "React.js", "SCSS", "css grid"]}
+        github="https://github.com/laze03/Rock-Paper-Scissors"
+        link="https://laze03.github.io/Rock-Paper-Scissors/"
+        img={RPS}
+      />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <Project
+        className="reversed Hoobank"
+        title="Hoobank Project"
+        list={["JavaScript", "React.js", "TailwindCSS", "flexbox"]}
+        github="https://github.com/laze03/bank-site"
+        link="https://laze03.github.io/bank-site/"
+        img={Hoobank}
       />
     </div>
   );

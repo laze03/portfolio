@@ -10,6 +10,7 @@
       left: 41rem;
     }
   }
+
   .reversed {
     flex-direction: row-reverse;
 
@@ -35,11 +36,15 @@
   }
 
   .direct {
+    flex-direction: row;
+
     .content {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-
+      p {
+        text-align: start;
+      }
       ul {
         justify-content: flex-start;
 
@@ -47,9 +52,10 @@
           padding-right: 3rem;
         }
       }
-    }
-    .logo {
-      padding-right: 1rem;
+
+      .logo {
+        padding-right: 1rem;
+      }
     }
   }
 
@@ -77,10 +83,11 @@
     }
 
     ul {
-      width: 100%;
+      width: 115%;
       display: flex;
       list-style: none;
       margin-bottom: 1rem;
+      z-index: 10;
       li {
         h6 {
           color: $slate;
@@ -106,6 +113,12 @@
     @include imgHover(33rem, 60rem);
     .img-section::after {
       display: none;
+    }
+
+    @media screen and (max-width: 1800px) {
+      .img-section {
+        height: 27.5rem;
+      }
     }
 
     @media screen and (max-width: 1600px) {
@@ -140,8 +153,19 @@
       }
     }
 
-    .project {
+    .nexter {
       background-image: url(../media/nexter.png);
+    }
+
+    .RPS {
+      background-image: url(../media/RPS.png);
+    }
+
+    .Hoobank {
+      background-image: url(../media/Hoobank.png);
+    }
+
+    .project {
       background-size: cover;
       box-shadow: 5px 5px 5px rgba(black, 0.2);
 
