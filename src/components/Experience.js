@@ -57,7 +57,7 @@ export default function Experience() {
             date="September 2022 - Present"
             list={[
               "learning data structures & algorithms",
-              "Preparing Certification in Front-End ( acquaried ) and Back-End Development",
+              "Preparing Certification in Front-End ( acquired ) and Back-End Development",
             ]}
           />
           <Detail
@@ -67,7 +67,7 @@ export default function Experience() {
             date="September 2020 - July 2022"
             list={[
               "Intense courses on Algebra, Trigonometry and ...",
-              "Acquaring general knowledge about Physics, Chemestry, and IT ",
+              "Acquiring general knowledge about Physics, Chemestry, and IT ",
             ]}
           />
           <Detail

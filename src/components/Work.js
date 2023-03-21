@@ -50,12 +50,12 @@ export default function Work() {
     <div className="work" id="Work">
       <H2 before="03. " text="Some Things I've Built" />
       <Project
-        className="reversed nexter"
-        title="Nexter Project"
-        list={["HTML 5", "CSS 3", "SCSS", "css grid", "flexbox"]}
-        github="https://github.com/laze03/Nexter"
-        link="https://laze03.github.io/Nexter/"
-        img={Nexter}
+        className="reversed Hoobank"
+        title="Hoobank Project"
+        list={["JavaScript", "React.js", "TailwindCSS", "flexbox"]}
+        github="https://github.com/laze03/bank-site"
+        link="https://laze03.github.io/bank-site/"
+        img={Hoobank}
       />
       <br />
       <br />
@@ -65,7 +65,13 @@ export default function Work() {
       <Project
         className="direct RPS"
         title="ROck-Paper-Scissors Game"
-        list={["JavaScript", "React.js", "SCSS", "css grid"]}
+        list={[
+          "JavaScript",
+          "React.js",
+          "React context hook",
+          "SCSS",
+          "flexbox",
+        ]}
         github="https://github.com/laze03/Rock-Paper-Scissors"
         link="https://laze03.github.io/Rock-Paper-Scissors/"
         img={RPS}
@@ -76,12 +82,12 @@ export default function Work() {
       <br />
       <br />
       <Project
-        className="reversed Hoobank"
-        title="Hoobank Project"
-        list={["JavaScript", "React.js", "TailwindCSS", "flexbox"]}
-        github="https://github.com/laze03/bank-site"
-        link="https://laze03.github.io/bank-site/"
-        img={Hoobank}
+        className="reversed nexter"
+        title="Nexter Project"
+        list={["HTML 5", "CSS 3", "SCSS", "css grid", "flexbox"]}
+        github="https://github.com/laze03/Nexter"
+        link="https://laze03.github.io/Nexter/"
+        img={Nexter}
       />
     </div>
   );
