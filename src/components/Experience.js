@@ -51,7 +51,7 @@ export default function Experience() {
         </div>
         <div className="details">
           <Detail
-            class="1- College"
+            class="College"
             id="1"
             place="ENSIAS"
             date="September 2022 - Present"
@@ -61,7 +61,7 @@ export default function Experience() {
             ]}
           />
           <Detail
-            class="2- CPGE"
+            class="CPGE"
             id="2"
             place="Al Khansaa Highschool"
             date="September 2020 - July 2022"
