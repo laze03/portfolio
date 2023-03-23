@@ -56,7 +56,7 @@ export default function Experience() {
             place="ENSIAS"
             date="September 2022 - Present"
             list={[
-              "learning data structures & algorithms",
+              "Learning data structures & algorithms",
               "Preparing Certification in Front-End ( acquired ) and Back-End Development",
             ]}
           />
