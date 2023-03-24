@@ -15,8 +15,9 @@ export default function Header() {
       </p>
       <Button
         className="button-l"
-        href="/resume.pdf"
+        href="./CV_LAZRAK_Ahmed.pdf"
         text="Have a look at my resume!"
+        download="CV_LAZRAK_Ahmed.pdf"
       />
     </header>
   );
