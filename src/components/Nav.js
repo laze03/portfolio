@@ -21,7 +21,12 @@ export default function Nav() {
         {link(2, "Experience")}
         {link(3, "Work")}
         {link(4, "Contact")}
-        <Button className="button-s" href="/public/resume.pdf" text="Resume" />
+        <Button
+          className="button-s"
+          href="./CV_LAZRAK_Ahmed.pdf"
+          text="Resume"
+          download="CV_LAZRAK_Ahmed.pdf"
+        />
       </div>
     </nav>
   );
