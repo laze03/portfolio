@@ -23,6 +23,7 @@
       }
       ul {
         justify-content: flex-end;
+        flex-wrap: wrap;
 
         li {
           padding-left: 3rem;
@@ -47,6 +48,7 @@
       }
       ul {
         justify-content: flex-start;
+        flex-wrap: wrap;
 
         li {
           padding-right: 3rem;

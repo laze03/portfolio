@@ -586,6 +586,7 @@ header a {
 }
 .work .reversed .content ul {
   justify-content: flex-end;
+  flex-wrap: wrap;
 }
 .work .reversed .content ul li {
   padding-left: 3rem;
@@ -606,6 +607,7 @@ header a {
 }
 .work .direct .content ul {
   justify-content: flex-start;
+  flex-wrap: wrap;
 }
 .work .direct .content ul li {
   padding-right: 3rem;

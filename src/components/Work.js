@@ -3,9 +3,20 @@ import H2 from "./H2";
 import Nexter from "../media/nexter.png";
 import RPS from "../media/RPS.png";
 import Hoobank from "../media/Hoobank.png";
+import flvariant from "../media/flvariant.png";
 import { FiGithub, FiExternalLink } from "react-icons/fi";
 
 export default function Work() {
+  function flVariant() {
+    return (
+      <p>
+        A web application built with <a>React</a> and <a>Express.js</a> that
+        combines biology and computer science to perform comprehensive data
+        analysis using <a>Recharts</a>.
+      </p>
+    );
+  }
+
   function hoobank() {
     return (
       <p>
@@ -16,7 +27,7 @@ export default function Work() {
     );
   }
 
-  function rPS() {
+  function rps() {
     return (
       <p>
         An interactive classic game made with the help of
@@ -70,9 +81,31 @@ export default function Work() {
     <div className="work" id="Work">
       <H2 before="03. " text="Some Things I've Built" />
       <Project
+        className="direct RPS"
+        title="FL Variant Web App"
+        function={flVariant()}
+        list={[
+          "SCSS",
+          "JavaScript",
+          "React.js",
+          "Recharts",
+          "Node.js",
+          "Express.js",
+          "REST API",
+        ]}
+        github="https://github.com/laze03/FL-Variant"
+        link="https://laze03.github.io/FL-Variant/"
+        img={flvariant}
+      />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <Project
         className="reversed RPS"
         title="Rock-Paper-Scissors Game"
-        function={rPS()}
+        function={rps()}
         list={[
           "JavaScript",
           "React.js",
